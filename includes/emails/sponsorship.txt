@@ -1,0 +1,8 @@
+Dear {name} ,
+
+Now you are sponsored by {sponsor_name}.
+
+Please check 'My Sponsors' section in your member area.
+
+
+Sponsorspace.com

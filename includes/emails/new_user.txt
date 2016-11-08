@@ -1,0 +1,20 @@
+Hello {name},
+
+Welcome to {site_name}.
+
+*Your {site_name} log-in details*
+
+Click on the following link and login with your User Name and Password to activate your account :
+{path} click here 
+or direct cut and paste the following in address bar
+
+{path}
+
+Here are your login details:
+---------------------------
+Useremail: {user_email}
+Password: {password}
+---------------------------
+
+Thank you, 
+{site_name}

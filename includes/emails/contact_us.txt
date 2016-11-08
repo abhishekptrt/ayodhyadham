@@ -1,0 +1,18 @@
+Dear Administrator,
+
+You have received an online contact request from a potential customer. Kindly follow up the details of the request mentioned below within next 24 hours.,
+
+----------------------------------------------------
+User: {cu_name}
+Email Address: {cu_email}
+Title: {cu_title}
+Comments: {cu_message}
+----------------------------------------------------
+
+Assuring you our best attention at all times.
+
+
+Our Warmest Regards,
+
+Customer Care Division
+Sponsorspace.com	

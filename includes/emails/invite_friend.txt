@@ -1,0 +1,14 @@
+Hi {toname}, 
+
+{from_name} has sent you a invite to SponsorSpace.com. 
+
+SponsorSpace.com is where people find sponsors who want to hook them up with stuff. It's fun and super easy to use. Join SponsorSpace today and get discovered! 
+
+{from_name}'s Message:
+{tomessage}
+
+http://www.sponsorspace.com/
+
+See you there,
+{user_public_display_name}
+http://www.sponsorspace.com/{user_public_display_name}

@@ -1,0 +1,7 @@
+Dear {name} ,
+
+User {user_name} has given answers of your further queries. Please check 'check more queries ' 
+of {user_name}'s application from Applications section from your account
+ 
+
+Sponsorspace.com

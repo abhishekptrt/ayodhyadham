@@ -1,0 +1,18 @@
+Hello, {cu_name}
+
+We are glad that you interacted with {sitename}
+Its our pleasure to reply your question.
+
+Your Question:
+{cu_message}
+
+
+Admin Reply:
+{cu_reply_message}
+
+
+From: Admin ({sitename})
+Our Warmest Regards,
+
+Customer Care Division
+{sitename} {path}	
