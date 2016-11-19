@@ -90,17 +90,14 @@ $reccnt = db_scalar($sql_count);
         <table width="100%"  border="0" cellpadding="0" cellspacing="1" class="tableList">
           <tr>
                  <th nowrap="nowrap">Name           <?= sort_arrows('user_fname')?></th>                   
-            <th nowrap="nowrap">Type            <?= sort_arrows('user_type')?></th>
                       
             <th nowrap="nowrap">Email            <?= sort_arrows('user_email')?></th>
                       
-            <th nowrap="nowrap">City            <?= sort_arrows('user_city')?></th>
-            <th nowrap="nowrap">Title            <?= sort_arrows('user_title')?></th>
+           
                       
             <th nowrap="nowrap">Status            <?= sort_arrows('user_status')?></th>
                       
-            <th nowrap="nowrap">Reg Date            <?= sort_arrows('user_reg_date')?></th>
-                                    <th>&nbsp;</th>      
+                                    
 									<th>&nbsp;</th> 
 									                   <th><input name="check_all" type="checkbox" id="check_all" value="1" onclick="checkall(this.form)" /></th>
                       </tr>
@@ -112,14 +109,12 @@ while ($line_raw = mysql_fetch_array($result)) {
 ?>
           <tr class="<?=$css?>">
 		     <td nowrap="nowrap"><?=$user_fname?></td>
-                                    <td nowrap="nowrap"><?=$user_type?></td>
+                                   
                         <td nowrap="nowrap"><?=$user_email?></td>
-                        <td nowrap="nowrap"><?=$user_city?></td>
-                        <td nowrap="nowrap"><?=$user_title?></td>
+                       
+                        
                         <td nowrap="nowrap"><?=$user_status?></td>
-                        <td nowrap="nowrap"><?=$user_reg_date?></td>
-						<td nowrap="nowrap"><a href="ss_user_video_list.php?u_id=<?=$user_id?>">View Video</td>
-                                    <td align="center"><a href="#"><img src="images/icons/edit.png" alt="Edit" width="8" height="16" border="0" /></a></td>                         
+                                    <td align="center"><a href="ss_users_f.php?user_id=<?=$user_id?>"><img src="images/icons/edit.png" alt="Edit" width="8" height="16" border="0" /></a></td>                         
                                     <td align="center"><input name="arr_user_ids[]" type="checkbox" id="arr_user_ids[]" value="<?=$user_id?>" /></td>
                 </tr>
           <? }
